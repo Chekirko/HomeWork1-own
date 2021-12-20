@@ -1,0 +1,21 @@
+/* цвет акцента #2196F3 */
+/* основной цвет текста #757575 */
+/* цвет заголовков #212121 */
+/* вторичный цвет #FFFFFF */
+/* цвет контактов rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primery-text-color: #757575;
+  --secondary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+.main-title {
+  color: var(--secondary-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
